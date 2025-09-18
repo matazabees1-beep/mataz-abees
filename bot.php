@@ -1,6 +1,6 @@
 <?php
 // ملف الإعدادات
-$token = '7442427853:AAFkp3zX3oE-818GeqcFfZKyNx_Vhn61mis';
+$token = '7442427853:BOT_TOKEN';
 $admin_id = '8381375458';
 $bot_status = 'on'; // حالة البوت (on/off)
 $main_admin = '8381375458'; // الأدمن الأساسي (المالك)
@@ -1063,4 +1063,5 @@ function handle_update_logic($input_text, $input_data, $input_cid, $input_uid, $
 
 // استدعاء الدالة لمعالجة التحديث
 handle_update_logic($text, $data, $cid, $uid, $callback);
+
 ?>
